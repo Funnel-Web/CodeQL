@@ -1,0 +1,17 @@
+{
+  "name": "CodeQL",
+  "version": "1.0.0",
+  "description": "A small repo to test out CodeQL. Everything in here is fake!",
+  "main": "index.js",
+  "scripts": {
+    "go": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}

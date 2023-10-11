@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "outDir": "dist"
+    },
+    "include": [
+        "./**/*.ts",
+        "./**/*.d.ts",
+        "./**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
