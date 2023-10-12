@@ -1,12 +1,17 @@
 export function failMe(input: string): void {
     //Trying to get something to fail here. 
-
-    let something = 'hello'
-
-    const loc = null;
-    if (dist < 10)
-        loc = "here";
-    else
-        loc = "there";
-    console.log(`faileme: ${input} and ${loc} and ${something}`);
+    let addition;
+    switch (input) {
+        case 'input1':
+            addition = 'another thing';
+        case 'input2':
+            addition = 'something else';
+        case 'input3':
+            addition = 'one more thing';
+    }
+    if (addition) {
+        console.log(`faileme: ${input} with the ${addition}`);
+    } else {
+        console.log(`faileme: ${input} with the ${addition}`);
+    }
 }
