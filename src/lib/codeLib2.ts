@@ -3,8 +3,8 @@ export function failMe(input: string): void {
 
     let something = 'hello'
 
-    const loc = null;
-    if (dist < 10)
+    let loc = null;
+    if (input = '10')
         loc = "here";
     else
         loc = "there";
