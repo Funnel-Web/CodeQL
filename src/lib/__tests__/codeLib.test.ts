@@ -23,7 +23,7 @@ describe('convert Bytes tests', () => {
     expect(response).toBe('1.1 kb');
   });
 
-  test('should return 1 Mb bytes for 1024', () => {
+  test('should return 91 pb Mb bytes', () => {
     const response = convertBytes(102494827349873423);
     expect(response).toBe('91 pb');
   });
