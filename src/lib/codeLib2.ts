@@ -4,7 +4,7 @@ export function failMe(input: string): void {
     let something = 'hello'
 
     let loc = null;
-    if (input = '10')
+    if (input === '10')
         loc = "here";
     else
         loc = "there";
